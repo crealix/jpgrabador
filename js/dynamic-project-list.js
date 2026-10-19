@@ -7,6 +7,12 @@
 
 const projects = [
   // ===== Android Apps =====
+  { title: "Manila Water", category: "Android", image: "images/proj-logo/ic_manilawater.webp",
+    description: "The Manila Water App is the latest self-service, online channel of Manila Water.",
+    client: "Manila Water", date: "April 2026 – Present", link: "https://play.google.com/store/apps/details?id=smx.mwc.mmwa" },
+  { title: "LovePH", category: "Android", image: "images/proj-logo/ic_loveph.webp",
+    description: "Android and IOS - Experience the Best of the Philippines – All in One App",
+    client: "Govertment Project - DICT · MultiSys", date: "March 2027 – Present", link: "https://play.google.com/store/apps/details?id=com.pep.love" },
   { title: "Ka-Partner App (Smart DMS)", category: "Android", image: "images/proj-logo/ic_kapartner.png",
     description: "Retailer mobile app for Smart — load wallet, suki list, transaction tooling.",
     client: "Smart · MultiSys", date: "May 2020 – Present", link: "kapartner-app-smart.html" },
@@ -58,29 +64,51 @@ const projects = [
   { title: "AppChemy", category: "Android", image: "images/proj-logo/ic_appchemy.png",
     description: "Educational chemistry card game using the Lewis Electron Dot system.",
     client: "—", date: "—", link: "appchemy.html" },
-  { title: "Church Management System", category: "Android", image: "images/proj-logo/ic_churchmanagementsystem.png",
-    description: "Schedule & reservation mobile application for parish operations.",
-    client: "—", date: "—", link: "cms-app.html" },
-  { title: "VCA — Voice Command", category: "Android", image: "images/proj-logo/ic_voicecommand.png",
-    description: "Voice command Android application.",
-    client: "—", date: "—", link: "vca.html" },
-  { title: "OLFU Student Handbook", category: "Android", image: "images/proj-logo/ic_olfu.png",
-    description: "Online & offline reference handbook for OLFU students.",
-    client: "OLFU", date: "—", link: "olfu.html" },
-  { title: "BTC Clicks", category: "Android", image: "images/proj-logo/ic_btcclicks.png",
-    description: "Instant cryptocoin earning site companion (2017).",
-    client: "—", date: "2017", link: "btcclicks.html" },
-  { title: "CoinPot Pro", category: "Android", image: "images/proj-logo/ic_coinpotpro.png",
-    description: "One-stop BTC and altcoin earning companion platform.",
-    client: "—", date: "—", link: "coinpotpro.html" },
-  { title: "Status Quotes & Memes", category: "Android", image: "images/proj-logo/ic_quotememe.png",
-    description: "Quote and meme sharing application.",
-    client: "—", date: "—", link: "statusquotesmemes.html" },
-  { title: "Whogoat", category: "Android", image: "images/proj-logo/ic_whogoat.png",
-    description: "Android utility / lifestyle application.",
-    client: "—", date: "—", link: "whogoat.html" },
+  // { title: "Church Management System", category: "Android", image: "images/proj-logo/ic_churchmanagementsystem.png",
+  //   description: "Schedule & reservation mobile application for parish operations.",
+  //   client: "—", date: "—", link: "cms-app.html" },
+  // { title: "VCA — Voice Command", category: "Android", image: "images/proj-logo/ic_voicecommand.png",
+  //   description: "Voice command Android application.",
+  //   client: "—", date: "—", link: "vca.html" },
+  // { title: "OLFU Student Handbook", category: "Android", image: "images/proj-logo/ic_olfu.png",
+  //   description: "Online & offline reference handbook for OLFU students.",
+  //   client: "OLFU", date: "—", link: "olfu.html" },
+  // { title: "BTC Clicks", category: "Android", image: "images/proj-logo/ic_btcclicks.png",
+  //   description: "Instant cryptocoin earning site companion (2017).",
+  //   client: "—", date: "2017", link: "btcclicks.html" },
+  // { title: "CoinPot Pro", category: "Android", image: "images/proj-logo/ic_coinpotpro.png",
+  //   description: "One-stop BTC and altcoin earning companion platform.",
+  //   client: "—", date: "—", link: "coinpotpro.html" },
+  // { title: "Status Quotes & Memes", category: "Android", image: "images/proj-logo/ic_quotememe.png",
+  //   description: "Quote and meme sharing application.",
+  //   client: "—", date: "—", link: "statusquotesmemes.html" },
+  // { title: "Whogoat", category: "Android", image: "images/proj-logo/ic_whogoat.png",
+  //   description: "Android utility / lifestyle application.",
+  //   client: "—", date: "—", link: "whogoat.html" },
 
   // ===== Web =====
+  // ===== New Web Batch =====  
+  { title: "Diocese of Novaliches", category: "Web", image: "images/proj-logo/ic_dioceseofnovaliches.png",
+    description: "Diocese of Novaliches Catholic Website.",
+    client: "Diocese of Novaliches", date: "February 2026 – Present", link: "https://www.dioceseofnovaliches.ph/" },  
+
+ { title: "RSVP website of Angela and Derey", category: "Web", image: "images/proj-logo/ic_angela-and-derey.jpg",
+    description: "RSVP website",
+    client: "Angela and Derey", date: "January 2026", link: "https://crealix.github.io/thecliffhangerstudios/angela-and-derey/" }, 
+
+  { title: "RSVP website of Grace and Michael", category: "Web", image: "images/proj-logo/ic_grace-and-michael.jpg",
+    description: "RSVP website",
+    client: "Grace and Michael", date: "December 2025", link: "https://crealix.github.io/thecliffhangerstudios/grace-and-michael/" }, 
+
+  { title: "The Cliffhanger Studios", category: "Web", image: "images/proj-logo/ic_thecliffhangerstudios.png",
+    description: "Photo and video coverage website.",
+    client: "The Cliffhanger Studios", date: "October 2024 – Present", link: "https://crealix.github.io/thecliffhangerstudios/" },  
+
+  { title: "The Happy Club", category: "Web", image: "images/proj-logo/ic_thehappyclub.jpg",
+    description: "Photobooth Coverage.",
+    client: "The Cliffhanger Studios", date: "December 2024 – Present", link: "https://crealix.github.io/thecliffhangerstudios/thehappyclub/" }, 
+
+
   { title: "Republisys", category: "Web", image: "images/proj-logo/ic_republisys.png",
     description: "Back-end web/mobile development for Republisys Inc.",
     client: "Republisys Inc.", date: "Sept 2018 – March 2020", link: "republisys.html" },
@@ -102,6 +130,7 @@ const projects = [
   { title: "WatchLaterr", category: "Web", image: "images/proj-logo/ic_watchlaterrwebuse.png",
     description: "Personal blog & content site.",
     client: "Personal", date: "—", link: "watchlaterr.html" },
+    
 
   // ===== Desktop =====
   { title: "Comic Alley POS", category: "Desktop", image: "images/proj-logo/ic_comicalley.png",
